@@ -15,9 +15,10 @@ const App = () => {
 	}, []);
 
 	useEffect(() => {
-    var pusher = new Pusher('9c95e4aeec1860dcb3fb', {
-      cluster: 'ap2'
+    var pusher = new Pusher('f99803e6c3cb026e4c3b', {
+      cluster: 'eu'
     });
+
 
 		const channel = pusher.subscribe("message");
 		channel.bind("inserted", (newMessage) => {

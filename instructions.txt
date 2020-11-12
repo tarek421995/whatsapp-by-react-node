@@ -5,3 +5,9 @@ firebase init
 firebase deploy
 firebase is for authentication ,hosting 
 backend is express.js node.js , mongoDb
+mongoose Db username is admin , password is mAqd99ddyKieGoUG
+network access ip is 104.206.205.182
+database name is whatsappdb for mongoose db connections
+   var pusher = new Pusher('f99803e6c3cb026e4c3b', {
+      cluster: 'eu'
+    });
